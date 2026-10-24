@@ -11,6 +11,6 @@ app.get("/", (req, res) => {
     res.send("Hello World! this is gateway");
 })
 
-app.listen(process.env.PORT || 8000, () => {
+app.listen(process.env.PORT, () => {
     console.log(`Gateway is running on port ${process.env.PORT}`);
 })
